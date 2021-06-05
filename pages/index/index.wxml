@@ -1,23 +1,142 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="bg-img  padding-tb-xl cover-view">
+	<view class="cu-bar" style="width:500rpx;opacity:0.8">
+		<view class="search-form round">
+			<text class="cuIcon-search"></text>
+			<input type="text" placeholder="搜索目的地/游记/攻略/用户"></input>
+		</view>
+	</view>
+</view>
+
+
+<view class="bg-white padding grid-icons">
+	<view class="icons-item">
+		<view class="bg-green cu-avatar lg round">
+			<text class="cuIcon-discover lg text-write"></text>
+		</view>
+		<view>门票</view>
+	</view>
+
+	<view class="icons-item">
+		<view class="bg-purple cu-avatar lg round">
+			<text class="cuIcon-location lg text-write"></text>
+		</view>
+		<view>当地游</view>
+	</view>
+	<view class="icons-item">
+		<view class="bg-blue cu-avatar lg round">
+			<text class="cuIcon-favor lg text-write"></text>
+		</view>
+		<view>酒店</view>
+	</view>
+	<view class="icons-item">
+		<view class="bg-orange cu-avatar lg round">
+			<text class="cuIcon-taxi lg text-write"></text>
+		</view>
+		<view>跟团游</view>
+	</view>
+	<view class="icons-item">
+		<view class="bg-red cu-avatar lg round">
+			<text class="cuIcon-creativefill lg text-write"></text>
+		</view>
+		<view>自由行</view>
+	</view>
+</view>
+
+<view class="view-travel">
+	<text class="text-black text-bold text-xl padding">热门游记</text>
+
+	<view class="travel-list">
+		<view class="travel-item">
+			<image mode="aspectFill" src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black"></text>
+					北京</view>
+				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+				<view class="user-line">
+					<view class="user-left">
+						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+					</view>
+					<view class="user-center">
+						<view>小露露</view>
+						<view>2020-01-01</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>794</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="travel-item ">
+			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black"></text>
+					北京</view>
+				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+				<view class="user-line">
+					<view class="user-left">
+						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+					</view>
+					<view class="user-center">
+						<view>小露露</view>
+						<view>2020-01-01</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>794</text>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="travel-item ">
+			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black"></text>
+					北京</view>
+				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+				<view class="user-line">
+					<view class="user-left">
+						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+					</view>
+					<view class="user-center">
+						<view>小露露</view>
+						<view>2020-01-01</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>794</text>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="travel-item ">
+			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black"></text>
+					北京</view>
+				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+				<view class="user-line">
+					<view class="user-left">
+						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+					</view>
+					<view class="user-center">
+						<view>小露露</view>
+						<view>2020-01-01</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>794</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+
+	</view>
+
 </view>

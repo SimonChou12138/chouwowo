@@ -1,0 +1,29 @@
+<cu-custom bgColor="bg-white"  isHome="{{true}}" ></cu-custom>
+<view class="bg-img padding-tb-xl cover-view" ></view>
+
+<view class="login-container">
+	<view class="login-title">
+		手机号登录
+	</view>
+	<navigator class="goregister" url="/pages/register/register">
+		<text>新用户？点击这里注册</text>
+	</navigator>
+	<form class="login-from" >
+		<!--手机号-->
+		<view class="input-view">
+			<input placeholder="请输入手机号" name="username"/>
+		</view>
+		<!--密码-->
+		<view class="input-view">
+			<input password="true" placeholder="请输入密码" name="password"/>
+		</view>
+		<!--按钮-->
+		<view class="btn-view">
+			<button class="login-btn round bg-cyan">
+      <text class="cuIcon-profilefill"></text> 立即登录</button>
+			<button class="login-btn round bg-green" >
+      	<text class="cuIcon-weixin"></text> 微信登录
+			</button>
+		</view>
+	</form>
+</view>

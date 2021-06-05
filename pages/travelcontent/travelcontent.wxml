@@ -1,0 +1,32 @@
+<!--pages/travelcontent/travelcontent.wxml-->
+<cu-custom bgColor="bg-white"  isCustom="{{true}}" >
+
+</cu-custom>
+
+<view class="travels">
+	<image src="/images/bg.jpeg" class="cover" mode="widthFix"></image>
+	<view class="container">
+		<view class="title">xxxxxx</view>
+
+    <view class="user-view">
+    	<image src="/images/default.jpg" class="cu-avatar round lg"></image>
+      <view class="user-info">
+        	<view>dafei</view>
+          <view>2020-01-01</view>		
+      </view>
+        <view>
+        <text class="cuIcon-locationfill lg "></text> 广州
+        </view>
+      	<view class="margin-tb-sm text-center">
+          <button class="cu-btn round line-black">关注</button>
+        </view>
+    </view>
+  
+ 
+
+		<rich-text nodes="{{content}}">
+   
+		</rich-text>
+
+	</view>
+</view>

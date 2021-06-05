@@ -1,0 +1,7 @@
+<!--pages/shop/shop.wxml-->
+
+<cu-custom bgColor="bg-opacity" class="bg-opacity custom">
+	<view slot="content">窝窝商城</view>
+</cu-custom>
+
+<button class="cu-btn round bg-cyan" bindtap="order">下单</button>
