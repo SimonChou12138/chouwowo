@@ -1,10 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/user/user",
     "pages/travelcontent/travelcontent",
     "pages/login/login",
-    "pages/user/user",
-    "pages/shop/shop"
+    "pages/up/up"
 ],
 "tabBar": {
     "selectedColor":"#e16531",
@@ -16,10 +16,10 @@
         "text": "游记"
       },
       {
-        "selectedIconPath":"/images/icons/shop_selected.png",
-        "iconPath":"/images/icons/shop.png",
-        "pagePath": "pages/shop/shop",
-        "text": "商城"
+        "selectedIconPath":"/images/icons/up_selected.png",
+        "iconPath":"/images/icons/up.png",
+        "pagePath": "pages/up/up",
+        "text": "发布"
       },
       {
         "selectedIconPath":"/images/icons/user_selected.png",

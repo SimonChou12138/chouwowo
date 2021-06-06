@@ -46,7 +46,7 @@
 	<text class="text-black text-bold text-xl padding">热门游记</text>
 
 	<view class="travel-list">
-		<view class="travel-item">
+		<view class="travel-item" bindtap="showtravelcontent">
 			<image mode="aspectFill" src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
 			<view class="travel-info">
 				<view class="text-bold text-lg">

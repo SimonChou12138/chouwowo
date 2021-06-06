@@ -10,25 +10,14 @@
 	<view class="bg-img  padding-tb-xl cover-view">
 	</view>
 
-	<view class="user-info">
-		<view style="background-image:url('/images/default.jpg');" class="cu-avatar xl round">
+	<view class="user-info" bindtap="login">
+		<view style="background-image:url('{{userInfo.avatarUrl}}');" class="cu-avatar xl round">
 			<view class="cu-tag badge cuIcon-male bg-blue "></view>
-			<!-- <view class="cu-tag badge cuIcon-female bg-pink"></view> -->
 		</view>
-		<view class="user-name">大佬</view>
+		<view class="user-name">{{userInfo.nickName}}</view>
 		<view>
-			<text>9 关注</text> | <text>5 粉丝</text>
+			<text>{{attentionNum}} 关注</text> | <text>{{fans}} 粉丝</text>
 		</view>
-		
-		<!--
-		<view>请先登录您的账号</view>
-			<button class="cu-btn round bg-green" style="margin: 20rpx 10rpx">
-				<navigator url="/pages/login/login">
-					<text class="cuIcon-profilefill"></text> 点击登录
-				</navigator>
-			</button>
-		-->
-		
 	</view>
 
 </view>
