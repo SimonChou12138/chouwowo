@@ -1,10 +1,12 @@
 //index.js
 const back = wx.getBackgroundAudioManager();
+const app = getApp()
+
 
 Page({
   
   data: {
-    
+    tmp:{}
   },
   showtravelcontent:function(){
     wx.navigateTo({

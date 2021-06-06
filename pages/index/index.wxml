@@ -47,90 +47,92 @@
 
 	<view class="travel-list">
 		<view class="travel-item" bindtap="showtravelcontent">
-			<image mode="aspectFill" src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+			<image mode="aspectFill" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3277313278,2918560251&fm=11&gp=0.jpg"></image>
 			<view class="travel-info">
 				<view class="text-bold text-lg">
-					<text class="cuIcon-locationfill lg text-black"></text>
-					北京</view>
-				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
 				<view class="user-line">
 					<view class="user-left">
-						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
 					</view>
 					<view class="user-center">
-						<view>小露露</view>
-						<view>2020-01-01</view>
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
 					</view>
 					<view class="user-right">
 						<text class="cuIcon-like lg text-black"></text>
-						<text>794</text>
+						<text>666</text>
 					</view>
 				</view>
 			</view>
 		</view>
 
-		<view class="travel-item ">
-			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+		<view class="travel-item" bindtap="showtravelcontent">
+			<image mode="aspectFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F17177302.s21i.faiusr.com%2F2%2F1%2FABUIABACGAAg76qE2wUo4O6f_QMwtwQ4rAI.jpg&refer=http%3A%2F%2F17177302.s21i.faiusr.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625553872&t=dd82005c032ea257967059296ec56303"></image>
 			<view class="travel-info">
 				<view class="text-bold text-lg">
-					<text class="cuIcon-locationfill lg text-black"></text>
-					北京</view>
-				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
 				<view class="user-line">
 					<view class="user-left">
-						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
 					</view>
 					<view class="user-center">
-						<view>小露露</view>
-						<view>2020-01-01</view>
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
 					</view>
 					<view class="user-right">
 						<text class="cuIcon-like lg text-black"></text>
-						<text>794</text>
+						<text>666</text>
 					</view>
 				</view>
 			</view>
 		</view>
-		<view class="travel-item ">
-			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+
+		<view class="travel-item" bindtap="showtravelcontent">
+			<image mode="aspectFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%253A%252F%252Fdingyue.ws.126.net%252F2021%252F0605%252F65abb1d2j00qu709901kbc001hc00zkm.jpg%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625553902&t=d6202d497284791f5596e042e6d944e4"></image>
 			<view class="travel-info">
 				<view class="text-bold text-lg">
-					<text class="cuIcon-locationfill lg text-black"></text>
-					北京</view>
-				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
 				<view class="user-line">
 					<view class="user-left">
-						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
 					</view>
 					<view class="user-center">
-						<view>小露露</view>
-						<view>2020-01-01</view>
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
 					</view>
 					<view class="user-right">
 						<text class="cuIcon-like lg text-black"></text>
-						<text>794</text>
+						<text>666</text>
 					</view>
 				</view>
 			</view>
 		</view>
-		<view class="travel-item ">
-			<image src="https://b1-q.mafengwo.net/s15/M00/A4/D1/CoUBGV5Ujr-AafQeAA1UelMqs2c18.jpeg?imageMogr2%2Fthumbnail%2F%21450x270r%2Fstrip%2Fgravity%2FCenter%2Fcrop%2F%21450x270%2Fquality%2F90"></image>
+
+		<view class="travel-item" bindtap="showtravelcontent">
+			<image mode="aspectFill" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2941937018,501587649&fm=26&gp=0.jpg"></image>
 			<view class="travel-info">
 				<view class="text-bold text-lg">
-					<text class="cuIcon-locationfill lg text-black"></text>
-					北京</view>
-				<view class="travel-content">行行行行行行行XXXX方法反反复复飞飞飞是是是是谁送</view>
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
 				<view class="user-line">
 					<view class="user-left">
-						<view class="cu-avatar sm round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
 					</view>
 					<view class="user-center">
-						<view>小露露</view>
-						<view>2020-01-01</view>
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
 					</view>
 					<view class="user-right">
 						<text class="cuIcon-like lg text-black"></text>
-						<text>794</text>
+						<text>666</text>
 					</view>
 				</view>
 			</view>

@@ -1,4 +1,4 @@
-// pages/travelcontent/travelcontent.js
+// pages/upShow/upShow.js
 const app = getApp()
 Page({
 
@@ -21,6 +21,7 @@ Page({
       second_content: '',
       second_title: '',
     },
+    imgList:[],
   },
  
   
@@ -29,10 +30,12 @@ Page({
    */
   onLoad: function (options) {
     let content = this.handleImage(this.data.content);
-    let data = JSON.parse(options.form)
+    let data = JSON.parse(options.form);
+    let list = JSON.parse(options.imgList);
     this.setData({
         content:content,
-        form:data
+        form:data,
+        imageUrl:list
     })
   },
 

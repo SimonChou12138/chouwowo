@@ -1,4 +1,4 @@
-/* pages/travelcontent/travelcontent.wxss */
+/* pages/upShow/upShow.wxss */
 page{
   background-color: #fff;
 }

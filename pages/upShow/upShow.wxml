@@ -1,19 +1,17 @@
-<!--pages/travelcontent/travelcontent.wxml-->
+<!--pages/upShow/upShow.wxml-->
 <cu-custom bgColor="bg-gradual-blue" isCustom="{{true}}" >
-
 </cu-custom>
-
 <view class="travels">
-	<image src="{{imageUrl}}" class="cover" mode="widthFix"></image>
+	<image src="{{imageUrl[0]}}" class="cover" mode="widthFix"></image>
 	<view class="container">
-		<view class="title text-black text-bold" >{{title}}</view>
+		<view class="title text-black text-bold" >{{form.title}}</view>
 
     <view class="user-view">
       <!-- <image src="/images/default.jpg" class="cu-avatar round lg"></image> -->
       <open-data class="cu-avatar round lg" type="userAvatarUrl"></open-data>
       <view class="user-info">
         	<view><open-data type="userNickName"></open-data></view>
-          <view>{{time}}</view>		
+          <view>{{form.time}}</view>		
       </view>
         <view>
         <text class="cuIcon-locationfill lg "></text> 广州
@@ -23,9 +21,9 @@
         </view>
     </view>
     <view class="solids-bottom title text-center text-black text-bold">简介</view>
-    <text class="content text-black">{{content}}</text>
-    <view class="solids-bottom title text-center padding text-black text-bold">{{second_title}}</view>
-    <text class="solids-bottom content text-black">{{second_content}}</text>
-    <image src="{{second_imageUrl}}" class="cover" mode="widthFix"></image>
+    <text class="content text-black">{{form.content}}</text>
+    <view class="solids-bottom title text-center padding text-black text-bold">{{form.second_title}}</view>
+    <text class="solids-bottom content text-black">{{form.second_content}}</text>
+    <image src="{{imageUrl[1]}}" class="cover" mode="widthFix"></image>
 	</view>
 </view>

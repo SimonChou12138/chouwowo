@@ -1,16 +1,11 @@
 <!--pages/user/user.wxml-->
-
-
-<cu-custom bgColor="bg-opacity" class="bg-opacity custom">
-	<view slot="content">个人中心</view>
-</cu-custom>
-
-
 <view style="position: relative;">
 	<view class="bg-img  padding-tb-xl cover-view">
+	<view class="cu-bar" style="width:500rpx;opacity:0.8">
 	</view>
+</view>
 
-	<view class="user-info" bindtap="login">
+	<view class="user-info padding-sm " bindtap="login">
 		<view style="background-image:url('{{userInfo.avatarUrl}}');" class="cu-avatar xl round">
 			<view class="cu-tag badge cuIcon-male bg-blue "></view>
 		</view>
@@ -52,17 +47,32 @@
 </view>
 
 <view class="bg-white padding box">
-    <view>我的旅行足迹</view>
+	<view class=" flex flex-direction">
+  <button class="cu-btn bg-gradual-green lg" >我的旅行足迹</button>
+	</view>
 </view>
 
 <view class="bg-white padding box">
-    <view>精彩直播</view>
+	<view class=" flex flex-direction">
+  <button class="cu-btn bg-gradual-red lg" >精彩直播</button>
+	</view>
 </view>
 
 <view class="bg-white padding box">
-    <view>近期热门</view>
+	<view class=" flex flex-direction">
+  <button class="cu-btn bg-gradual-blue lg" >近期热门</button>
+	</view>
 </view>
 
-<view class="bg-white padding box">
-    <view>咨询客服</view>
+<view class="bg-white padding box" >
+	<view class=" flex flex-direction">
+  <button class="cu-btn bg-gradual-orange lg" open-type="contact" bindcontact="handleContact">咨询客服</button>
+	</view>
 </view>
+
+<view class="bg-white padding box" >
+	<view class=" flex flex-direction">
+  <button class="cu-btn bg-gradual-pink lg" open-type="feedback">意见反馈</button>
+	</view>
+</view>
+
