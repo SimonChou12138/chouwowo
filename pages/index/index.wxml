@@ -138,6 +138,52 @@
 			</view>
 		</view>
 
+		<view class="travel-item" bindtap="showtravelcontent">
+			<image mode="aspectFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.dingjijiudian.com%2Fd%2Ffile%2Fjdsk%2Fkllx%2F2020-01-21%2F8a353d97dbb512309354ee568f28c4e5.png%3FimageView2%2F2%2Fw%2F1500%2Fq%2F90&refer=http%3A%2F%2Fwww.dingjijiudian.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625574430&t=96e43626234cfae99f4a72ace2618614"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
+				<view class="user-line">
+					<view class="user-left">
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
+					</view>
+					<view class="user-center">
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>666</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="travel-item" bindtap="showtravelcontent">
+			<image mode="aspectFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F1812.img.pp.sohu.com.cn%2Fimages%2Fblog%2F2011%2F3%2F29%2F14%2F0%2Fe16269636_12fb9631d3fg213.jpg&refer=http%3A%2F%2F1812.img.pp.sohu.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625574392&t=5071b92ec4a65978564d281dd5508d4e"></image>
+			<view class="travel-info">
+				<view class="text-bold text-lg">
+					<text class="cuIcon-locationfill lg text-black">广州</text>
+					</view>
+				<view class="travel-content">广州有着两千多年的历史，是中国历史文化名城，有“千年商都”之称</view>
+				<view class="user-line">
+					<view class="user-left">
+						<open-data class="cu-avatar sm round" type="userAvatarUrl"></open-data>
+					</view>
+					<view class="user-center">
+						<view><open-data type="userNickName"></open-data></view>
+						<view>2020-06-06</view>
+					</view>
+					<view class="user-right">
+						<text class="cuIcon-like lg text-black"></text>
+						<text>666</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
 
 	</view>
 
